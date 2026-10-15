@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UN Youth Events</title>
+<meta name="description" content="Every youth-related event across the United Nations system, collected daily from UN websites.">
+<style>
+  :root {
+    --bg: #f5f7fa; --surface: #ffffff; --text: #1b2733; --muted: #5b6b7b;
+    --border: #dde3ea; --accent: #0a6fb7; --accent-soft: #e3f0fa; --hero: #009edb;
+    --hero-text: #ffffff; --past: #8a96a3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1720; --surface: #17212c; --text: #e6edf3; --muted: #9aa8b6;
+      --border: #2a3846; --accent: #5cb8f0; --accent-soft: #1b3346; --hero: #0b4f7a;
+      --hero-text: #ffffff; --past: #6c7a88;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+
+  header.hero { background: var(--hero); color: var(--hero-text); padding: 40px 0 32px; }
+  .hero h1 { margin: 0 0 6px; font-size: clamp(1.7rem, 4vw, 2.4rem); letter-spacing: -0.01em; }
+  .hero p { margin: 0; opacity: .92; max-width: 640px; }
+  .stats { margin-top: 14px; font-size: .9rem; opacity: .9; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; padding: 18px 0;
+              position: sticky; top: 0; background: var(--bg); z-index: 2;
+              border-bottom: 1px solid var(--border); }
+  .controls input, .controls select {
+    font: inherit; color: var(--text); background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px; padding: 9px 12px; }
+  .controls input { flex: 1 1 240px; min-width: 0; }
+  .controls select { flex: 0 1 auto; min-width: 0; max-width: 100%; }
+  .tabs { display: flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .tabs button { font: inherit; border: 0; background: var(--surface); color: var(--muted);
+                 padding: 9px 14px; cursor: pointer; }
+  .tabs button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+
+  h2.month { font-size: .85rem; text-transform: uppercase; letter-spacing: .08em;
+             color: var(--muted); margin: 28px 0 10px; }
+  .event { display: grid; grid-template-columns: 64px 1fr; gap: 16px; background: var(--surface);
+           border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+  .event.past { opacity: .75; }
+  .datebox { text-align: center; background: var(--accent-soft); border-radius: 10px;
+             padding: 8px 4px; align-self: start; color: var(--accent); }
+  .event.past .datebox { color: var(--past); }
+  .datebox .d { font-size: 1.5rem; font-weight: 700; line-height: 1.1; }
+  .datebox .m { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; }
+  .event h3 { margin: 0 0 4px; font-size: 1.08rem; line-height: 1.35; overflow-wrap: anywhere; }
+  .event h3 a { color: var(--text); text-decoration: none; }
+  .event h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .meta { color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .desc { margin: 8px 0 0; font-size: .95rem; overflow-wrap: anywhere; }
+  .actions { margin-top: 8px; font-size: .85rem; display: flex; gap: 14px; flex-wrap: wrap; }
+  .tag { display: inline-block; background: var(--accent-soft); color: var(--accent);
+         border-radius: 999px; padding: 1px 10px; font-size: .8rem; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 0; }
+
+  footer { color: var(--muted); font-size: .85rem; padding: 32px 0 48px; border-top: 1px solid var(--border); margin-top: 32px; }
+  footer details summary { cursor: pointer; }
+  footer table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+  footer td { padding: 4px 8px 4px 0; border-bottom: 1px solid var(--border); vertical-align: top; overflow-wrap: anywhere; }
+  .ok { color: #2e9d58; } .err { color: #d0473b; }
+
+  @media (max-width: 520px) {
+    .event { grid-template-columns: 52px 1fr; gap: 12px; padding: 14px; }
+    .datebox .d { font-size: 1.25rem; }
+    .controls { position: static; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>UN Youth Events</h1>
+    <p>Youth-related events from across the United Nations system, collected automatically from UN websites every day.</p>
+    <div class="stats" id="stats">Loading events…</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="controls" role="search">
+    <input id="q" type="search" placeholder="Search events, places, organisations…" aria-label="Search events">
+    <select id="source" aria-label="Filter by source"><option value="">All sources</option></select>
+    <div class="tabs" role="group" aria-label="Time period">
+      <button data-when="upcoming" aria-pressed="true">Upcoming</button>
+      <button data-when="past" aria-pressed="false">Past</button>
+      <button data-when="all" aria-pressed="false">All</button>
+    </div>
+  </div>
+  <div id="list" aria-live="polite"></div>
+</main>
+
+<footer class="wrap">
+  <p>Dates and details are copied from each organisation's website. Always confirm on the official event page.</p>
+  <details>
+    <summary>Sources checked in the last update</summary>
+    <table id="sources"></table>
+  </details>
+</footer>
+
+<script src="data/events.js"></script>
+<script>
+(function () {
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const data = window.UN_YOUTH_EVENTS || { events: [], sources: [] };
+  const today = new Date().toISOString().slice(0, 10);
+  const state = { q: "", source: "", when: "upcoming" };
+  const $ = (id) => document.getElementById(id);
+
+  const parse = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d)); };
+  const fmt = (iso, opts) => parse(iso).toLocaleDateString("en-GB", Object.assign({ timeZone: "UTC" }, opts));
+  const isPast = (e) => (e.end || e.start) < today;
+  const esc = (s) => String(s || "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
+
+  function dateLabel(e) {
+    const full = { day: "numeric", month: "long", year: "numeric" };
+    if (!e.end) return fmt(e.start, Object.assign({ weekday: "short" }, full));
+    return fmt(e.start, full) + " – " + fmt(e.end, full);
+  }
+
+  function icsFor(e) {
+    const d = (iso) => iso.replace(/-/g, "");
+    const end = new Date(parse(e.end || e.start).getTime() + 86400000).toISOString().slice(0, 10);
+    const txt = (s) => String(s || "").replace(/[\\,;]/g, (c) => "\\" + c).replace(/\n/g, "\\n");
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//UN Youth Events//EN", "BEGIN:VEVENT",
+      "UID:" + e.id + "@un-youth-events", "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z",
+      "DTSTART;VALUE=DATE:" + d(e.start), "DTEND;VALUE=DATE:" + d(end),
+      "SUMMARY:" + txt(e.title), "URL:" + e.url, "LOCATION:" + txt(e.location),
+      "DESCRIPTION:" + txt((e.description ? e.description + " " : "") + e.url), "END:VEVENT", "END:VCALENDAR"];
+    return "data:text/calendar;charset=utf-8," + encodeURIComponent(lines.join("\r\n"));
+  }
+
+  function card(e) {
+    const s = parse(e.start);
+    return '<article class="event' + (isPast(e) ? " past" : "") + '">' +
+      '<div class="datebox" aria-hidden="true"><div class="d">' + s.getUTCDate() + '</div><div class="m">' +
+        MONTHS[s.getUTCMonth()] + "</div></div>" +
+      "<div><h3><a href=\"" + esc(safeUrl(e.url)) + '" target="_blank" rel="noopener">' + esc(e.title) + "</a></h3>" +
+      '<div class="meta"><span>📅 ' + esc(dateLabel(e)) + "</span>" +
+        (e.location ? "<span>📍 " + esc(e.location) + "</span>" : "") +
+        '<span class="tag">' + esc(e.source) + "</span></div>" +
+      (e.description ? '<p class="desc">' + esc(e.description) + "</p>" : "") +
+      '<div class="actions"><a href="' + esc(safeUrl(e.url)) + '" target="_blank" rel="noopener">Event page ↗</a>' +
+        '<a href="' + icsFor(e) + '" download="' + esc(e.id) + '.ics">Add to calendar</a></div>' +
+      "</div></article>";
+  }
+
+  function render() {
+    const q = state.q.toLowerCase();
+    let items = data.events.filter((e) =>
+      (!state.source || e.source === state.source) &&
+      (state.when === "all" || (state.when === "past") === isPast(e)) &&
+      (!q || [e.title, e.description, e.location, e.source, e.organization].join(" ").toLowerCase().includes(q)));
+    if (state.when === "past") items = items.slice().reverse();
+
+    if (!items.length) {
+      $("list").innerHTML = '<p class="empty">No events match. Try another search or time period.</p>';
+      return;
+    }
+    let html = "", month = "";
+    for (const e of items) {
+      const m = fmt(e.start, { month: "long", year: "numeric" });
+      if (m !== month) { html += '<h2 class="month">' + m + "</h2>"; month = m; }
+      html += card(e);
+    }
+    $("list").innerHTML = html;
+  }
+
+  // Controls
+  [...new Set(data.events.map((e) => e.source))].sort().forEach((s) => {
+    const o = document.createElement("option"); o.value = o.textContent = s; $("source").appendChild(o);
+  });
+  $("q").addEventListener("input", (ev) => { state.q = ev.target.value.trim(); render(); });
+  $("source").addEventListener("change", (ev) => { state.source = ev.target.value; render(); });
+  document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => {
+    state.when = b.dataset.when;
+    document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    render();
+  }));
+
+  // Header stats and source health
+  const upcoming = data.events.filter((e) => !isPast(e)).length;
+  $("stats").textContent = data.generated_at
+    ? upcoming + " upcoming events · " + data.sources.length + " sources · updated " +
+      new Date(data.generated_at).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" })
+    : "No data yet. Run the scraper to collect events.";
+  $("sources").innerHTML = data.sources.map((s) =>
+    "<tr><td><a href=\"" + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></td>" +
+    '<td class="' + (s.status === "ok" ? "ok" : "err") + '">' + (s.status === "ok" ? "✓" : "✗ " + esc(s.error)) + "</td>" +
+    "<td>" + s.count + " events</td></tr>").join("");
+
+  render();
+})();
+</script>
+</body>
+</html>
