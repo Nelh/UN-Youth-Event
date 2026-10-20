@@ -1,13 +1,13 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-10-19T10:46:24+00:00",
-  "event_count": 4,
+  "generated_at": "2026-10-20T10:03:54+00:00",
+  "event_count": 5,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 8.0
+      "seconds": 12.3
     },
     {
       "status": "ok",
@@ -21,7 +21,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 14.9
+      "seconds": 15.4
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.9
+      "seconds": 2.3
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.7
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.8
+      "seconds": 1.0
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.2
+      "seconds": 1.4
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.1
+      "seconds": 1.0
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.1
+      "seconds": 0.5
     },
     {
       "status": "error",
@@ -104,14 +104,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "status": "ok",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -134,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.6
+      "seconds": 0.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.2
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.4
+      "seconds": 2.1
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.6
+      "seconds": 0.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 20.1
+      "seconds": 7.3
     }
   ],
   "events": [
@@ -181,14 +181,26 @@ window.UN_YOUTH_EVENTS = {
     {
       "title": "Department of Economic and Social Affairs",
       "url": "https://www.un.org/en/desa",
-      "start": "2026-10-15",
+      "start": "2026-10-19",
       "end": null,
       "location": "",
       "description": "meta description",
       "source": "ECOSOC Youth Forum",
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
-      "id": "761439e0e1f2"
+      "id": "1d0cdbc62015"
+    },
+    {
+      "title": "Press Conference: Biodiversity Offsets and Credits: Who Benefits, Who Bears the Costs?, UN Convention on Biodiversity - COP 17",
+      "url": "https://webtv.un.org/en/asset/k1c/k1cgso5m2o",
+      "start": "2026-10-20",
+      "end": null,
+      "location": "",
+      "description": "2026-10-20T11:45:00-04:00 07 45 am Conferences As negotiations at CBD COP17 unfold, this press conference will examine what the emerging outcomes on the so-called innovative schemes, including biodiversity offsets and credits, mean for Indigenous peoples, local communities, women and youth, as well as for efforts to address the root causes of biodiversity and forest loss.",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "5c6cd0c801d1"
     },
     {
       "title": "Youth Forum",
