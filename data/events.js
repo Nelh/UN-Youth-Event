@@ -1,5 +1,5 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-10-20T10:03:54+00:00",
+  "generated_at": "2026-10-21T10:07:52+00:00",
   "event_count": 5,
   "sources": [
     {
@@ -7,21 +7,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 12.3
+      "seconds": 1.6
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.0
+      "seconds": 14.8
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.4
+      "seconds": 16.0
     },
     {
       "status": "error",
@@ -37,14 +37,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 2.3
+      "seconds": 3.0
     },
     {
       "status": "ok",
@@ -58,7 +58,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 1,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.2
+      "seconds": 2.8
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.9
+      "seconds": 1.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 1.0
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.4
+      "seconds": 1.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 1.0
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -104,14 +104,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.9
+      "seconds": 13.2
     },
     {
       "status": "ok",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -134,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.8
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.6
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 2.1
+      "seconds": 2.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.8
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 7.3
+      "seconds": 0.9
     }
   ],
   "events": [
@@ -181,26 +181,26 @@ window.UN_YOUTH_EVENTS = {
     {
       "title": "Department of Economic and Social Affairs",
       "url": "https://www.un.org/en/desa",
-      "start": "2026-10-19",
+      "start": "2026-10-20",
       "end": null,
       "location": "",
       "description": "meta description",
       "source": "ECOSOC Youth Forum",
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
-      "id": "1d0cdbc62015"
+      "id": "50d5a7b4e732"
     },
     {
-      "title": "Press Conference: Biodiversity Offsets and Credits: Who Benefits, Who Bears the Costs?, UN Convention on Biodiversity - COP 17",
-      "url": "https://webtv.un.org/en/asset/k1c/k1cgso5m2o",
-      "start": "2026-10-20",
+      "title": "Press Conference: Close the Justice Gap: Youth Demands for Transformative and Equitable Biodiversity Implementation, UN Convention on Biodiversity - COP 17",
+      "url": "https://webtv.un.org/en/asset/k1i/k1iho8gidp",
+      "start": "2026-10-21",
       "end": null,
       "location": "",
-      "description": "2026-10-20T11:45:00-04:00 07 45 am Conferences As negotiations at CBD COP17 unfold, this press conference will examine what the emerging outcomes on the so-called innovative schemes, including biodiversity offsets and credits, mean for Indigenous peoples, local communities, women and youth, as well as for efforts to address the root causes of biodiversity and forest loss.",
+      "description": "2026-10-21T10:15:00-04:00 06 15 am Live Conferences The Global Youth Biodiversity Network (GYBN), bringing diverse youth voices from around the world to the international policy arena, will present the key calls from youth as the world takes on the first Global Review of collective progress in implementing the Kunming-Montreal Global Biodiversity Framework. They will share their assessment of…",
       "source": "UN Web TV",
       "source_url": "https://webtv.un.org/en/schedule",
       "organization": "webtv.un.org",
-      "id": "5c6cd0c801d1"
+      "id": "ad32f3026dd2"
     },
     {
       "title": "Youth Forum",
