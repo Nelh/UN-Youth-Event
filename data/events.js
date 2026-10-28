@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-10-27T10:33:12+00:00",
-  "event_count": 5,
+  "generated_at": "2026-10-28T11:21:00+00:00",
+  "event_count": 6,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 4.0
+      "seconds": 7.3
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 15.1
+      "seconds": 15.3
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.2
+      "seconds": 15.6
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.5
+      "seconds": 1.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 1.3
+      "seconds": 0.3
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 2,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.7
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -66,7 +66,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.2
+      "seconds": 1.1
     },
     {
       "status": "ok",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.8
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 1.0
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 1.0
+      "seconds": 3.2
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -134,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 1.0
+      "seconds": 0.7
     },
     {
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.4
+      "seconds": 1.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.2
+      "seconds": 32.7
     }
   ],
   "events": [
@@ -181,26 +181,38 @@ window.UN_YOUTH_EVENTS = {
     {
       "title": "Department of Economic and Social Affairs",
       "url": "https://www.un.org/en/desa",
-      "start": "2026-10-20",
+      "start": "2026-10-27",
       "end": null,
       "location": "",
       "description": "meta description",
       "source": "ECOSOC Youth Forum",
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
-      "id": "50d5a7b4e732"
+      "id": "91a75069c46c"
     },
     {
-      "title": "2026 UHC Day Youth Advocacy Workshop 27 October 2026 16:00 – 17:00 CET",
-      "url": "https://www.who.int/news-room/events/detail/2026/10/27/default-calendar/2026-uhc-day-youth-advocacy-workshop",
-      "start": "2026-10-27",
+      "title": "Press Conference: Close the Justice Gap: Youth Demands for Transformative and Equitable Biodiversity Implementation at COP17, UN Convention on Biodiversity",
+      "url": "https://webtv.un.org/en/asset/k1h/k1hzbhogft",
+      "start": "2026-10-28",
       "end": null,
       "location": "",
-      "description": "",
-      "source": "WHO",
-      "source_url": "https://www.who.int/news-room/events",
-      "organization": "who.int",
-      "id": "8e74468678fb"
+      "description": "2026-10-28T10:15:00-04:00 06 15 am 00:58:13 Conferences In this press conference, the Global Youth Biodiversity Network (GYBN), bringing diverse youth voices from around the world to the international policy arena, will present a youth assessment of the progress of the COP17 negotiations. They will take stock of which demands have been met, which did not advance, and what challenges continue to…",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "29954d41b6ad"
+    },
+    {
+      "title": "Youth Dialogue: Spotlighting Impact – 7th World Forum on Intercultural Dialogue (Baku, Azerbaijan)",
+      "url": "https://webtv.un.org/en/asset/k1a/k1ahbb2dvz",
+      "start": "2026-10-28",
+      "end": null,
+      "location": "",
+      "description": "2026-10-28T06:00:00-04:00 02 00 am 04:22:04 Conferences The 7th World Forum builds on the Baku Process evolution from shared values and peaceful coexistence toward practical responses to global division. It translates dialogue into concrete action for understanding, cooperation, peace and sustainable development.",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "b3904b593e68"
     },
     {
       "title": "Youth Forum",
