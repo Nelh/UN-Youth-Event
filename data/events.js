@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-01T11:50:03+00:00",
-  "event_count": 6,
+  "generated_at": "2026-11-02T13:29:38+00:00",
+  "event_count": 5,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 2.3
+      "seconds": 1.8
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 15.2
+      "seconds": 14.3
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.5
+      "seconds": 14.7
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.5
+      "seconds": 1.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.1
+      "seconds": 0.9
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.1
+      "seconds": 0.7
     },
     {
       "status": "ok",
-      "count": 3,
+      "count": 0,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 1.3
+      "seconds": 1.0
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 0.7
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.8
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 1.4
+      "seconds": 2.5
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -141,43 +141,31 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.6
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.4
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.9
+      "seconds": 0.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.1
+      "seconds": 1.0
     }
   ],
   "events": [
-    {
-      "title": "Cat VIII - Symposia UNESCO Youth Hackathon 2026 15 June 2026 - 28 November 2026",
-      "url": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026",
-      "start": "2026-06-15",
-      "end": null,
-      "location": "",
-      "description": "",
-      "source": "UNESCO",
-      "source_url": "https://www.unesco.org/en/events",
-      "organization": "unesco.org",
-      "id": "a83490af094f"
-    },
     {
       "title": "International Youth Day",
       "url": "https://unhabitat.org/events/international-youth-day-2",
@@ -191,16 +179,16 @@ window.UN_YOUTH_EVENTS = {
       "id": "531b36a5ee78"
     },
     {
-      "title": "Cat VIII - Symposia UNESCO Youth Hackathon 2026 30 October 2026 - 23 November 2026",
-      "url": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026-1",
-      "start": "2026-10-30",
+      "title": "Afghan Youth at a Crossroads - Rights, Aspirations, Challenges and Opportunities",
+      "url": "https://webtv.un.org/en/asset/k1s/k1sz2kfiho",
+      "start": "2026-11-02",
       "end": null,
       "location": "",
-      "description": "",
-      "source": "UNESCO",
-      "source_url": "https://www.unesco.org/en/events",
-      "organization": "unesco.org",
-      "id": "b1562eebf213"
+      "description": "2026-11-02T16:00:00-05:00 11 00 am Meetings & Events Afghan Youth at a Crossroads - Rights, Aspirations, Challenges and Opportunities.",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "f5a0cf2609ca"
     },
     {
       "title": "Department of Economic and Social Affairs",
