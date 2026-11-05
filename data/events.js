@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-04T12:59:00+00:00",
-  "event_count": 4,
+  "generated_at": "2026-11-05T13:11:44+00:00",
+  "event_count": 6,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 2.2
+      "seconds": 3.1
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.3
+      "seconds": 14.2
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 14.5
+      "seconds": 14.7
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -37,7 +37,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
@@ -51,14 +51,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -66,11 +66,11 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 2,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
       "seconds": 0.8
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.9
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.1
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.9
+      "seconds": 0.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.6
+      "seconds": 2.6
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -134,7 +134,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "status": "ok",
@@ -148,14 +148,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.1
+      "seconds": 2.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "status": "ok",
@@ -177,6 +177,30 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://unhabitat.org/events",
       "organization": "unhabitat.org",
       "id": "531b36a5ee78"
+    },
+    {
+      "title": "2026 Award Ceremony of the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences and Fellowship Programme for Young Women Scientists in Africa",
+      "url": "https://www.unesco.org/en/articles/2026-award-ceremony-unesco-equatorial-guinea-international-prize-research-life-sciences",
+      "start": "2026-11-05",
+      "end": "2026-11-06",
+      "location": "",
+      "description": "5-6 November 2026 (UNESCO HQ – Paris, France), Rooms I, II, Hall Pas Perdus UNESCO will mark the 10th edition of the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences and the 2nd edition of the Fellowship Programme for Young Women Scientists in Africa with this two-day celebration.",
+      "source": "UNESCO",
+      "source_url": "https://www.unesco.org/en/events",
+      "organization": "unesco.org",
+      "id": "70085166fa96"
+    },
+    {
+      "title": "Cat VIII - Symposia Award ceremony of the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences & Fellowship Programme for Young Women Scientists in Africa 5 November 2026",
+      "url": "https://www.unesco.org/en/event/award-ceremony-unesco-equatorial-guinea-international-prize-research-life-sciences-fellowship-0",
+      "start": "2026-11-05",
+      "end": null,
+      "location": "",
+      "description": "",
+      "source": "UNESCO",
+      "source_url": "https://www.unesco.org/en/events",
+      "organization": "unesco.org",
+      "id": "cfefb6a1dcec"
     },
     {
       "title": "Department of Economic and Social Affairs",
