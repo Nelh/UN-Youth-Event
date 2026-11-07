@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-06T12:56:43+00:00",
-  "event_count": 6,
+  "generated_at": "2026-11-07T11:43:27+00:00",
+  "event_count": 7,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 6.9
+      "seconds": 2.5
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.8
+      "seconds": 14.9
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.1
+      "seconds": 17.6
     },
     {
       "status": "error",
@@ -37,14 +37,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.5
+      "seconds": 2.3
     },
     {
       "status": "ok",
@@ -58,7 +58,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -70,7 +70,7 @@ window.UN_YOUTH_EVENTS = {
     },
     {
       "status": "ok",
-      "count": 2,
+      "count": 3,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
       "seconds": 1.0
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.6
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "error",
@@ -118,7 +118,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 1.0
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -134,21 +134,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.8
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.3
+      "seconds": 1.4
     },
     {
       "status": "ok",
@@ -162,10 +162,34 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.0
+      "seconds": 1.2
     }
   ],
   "events": [
+    {
+      "title": "Cat VIII - Symposia UNESCO Youth Hackathon 2026 15 June 2026 - 10 November 2026",
+      "url": "https://www.unesco.org/en/articles/unesco-youth-hackathon-2026",
+      "start": "2026-06-15",
+      "end": null,
+      "location": "",
+      "description": "",
+      "source": "UNESCO",
+      "source_url": "https://www.unesco.org/en/events",
+      "organization": "unesco.org",
+      "id": "ed6f727a7bf7"
+    },
+    {
+      "title": "Cat VIII - Symposia UNESCO Youth Hackathon 2026 15 June 2026 - 28 November 2026",
+      "url": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026",
+      "start": "2026-06-15",
+      "end": null,
+      "location": "",
+      "description": "",
+      "source": "UNESCO",
+      "source_url": "https://www.unesco.org/en/events",
+      "organization": "unesco.org",
+      "id": "a83490af094f"
+    },
     {
       "title": "International Youth Day",
       "url": "https://unhabitat.org/events/international-youth-day-2",
@@ -189,18 +213,6 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://www.unesco.org/en/events",
       "organization": "unesco.org",
       "id": "70085166fa96"
-    },
-    {
-      "title": "Ceremony Award ceremony of the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences & Fellowship Programme for Young Women Scientists in Africa 6 November 2026",
-      "url": "https://www.unesco.org/en/event/award-ceremony-unesco-equatorial-guinea-international-prize-research-life-sciences-fellowship",
-      "start": "2026-11-06",
-      "end": null,
-      "location": "",
-      "description": "",
-      "source": "UNESCO",
-      "source_url": "https://www.unesco.org/en/events",
-      "organization": "unesco.org",
-      "id": "03b4b6f033a0"
     },
     {
       "title": "Department of Economic and Social Affairs",
