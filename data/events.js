@@ -1,5 +1,5 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-08T11:56:02+00:00",
+  "generated_at": "2026-11-09T13:54:14+00:00",
   "event_count": 6,
   "sources": [
     {
@@ -7,21 +7,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 6.6
+      "seconds": 1.6
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.9
+      "seconds": 14.5
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.5
+      "seconds": 15.6
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.3
+      "seconds": 1.1
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.8
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.3
+      "seconds": 1.1
     },
     {
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 1.4
+      "seconds": 1.1
     },
     {
       "status": "error",
@@ -81,7 +81,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "status": "ok",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -104,7 +104,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.3
+      "seconds": 0.0
     },
     {
       "status": "ok",
@@ -115,10 +115,10 @@ window.UN_YOUTH_EVENTS = {
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.6
+      "seconds": 2.8
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -134,21 +134,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.8
+      "seconds": 1.0
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.6
+      "seconds": 1.5
     },
     {
       "status": "ok",
@@ -162,22 +162,10 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.3
+      "seconds": 1.6
     }
   ],
   "events": [
-    {
-      "title": "Cat VIII - Symposia UNESCO Youth Hackathon 2026 15 June 2026 - 28 November 2026",
-      "url": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026",
-      "start": "2026-06-15",
-      "end": null,
-      "location": "",
-      "description": "",
-      "source": "UNESCO",
-      "source_url": "https://www.unesco.org/en/events",
-      "organization": "unesco.org",
-      "id": "a83490af094f"
-    },
     {
       "title": "International Youth Day",
       "url": "https://unhabitat.org/events/international-youth-day-2",
@@ -213,6 +201,18 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
       "id": "f088a63a462b"
+    },
+    {
+      "title": "Integrated Responses to Loss and Damage: A Focus on Children and Young People",
+      "url": "https://www.unep.org/en/events/unep-event/integrated-responses-loss-and-damage-focus-children-and-young-people",
+      "start": "2026-11-10",
+      "end": null,
+      "location": "Antalya, Antalya, Türkiye",
+      "description": "Location: Side Event Room 5 – HATTUŞA, COP31, Antalya, TürkiyeClimate-related loss and damage is increasingly affecting children and young people, disrupting their lives, livelihoods and access to essential services. Economic losses affecting homes, schools, health facilities and water systems are closely connected to non-economic losses involving health and well-being, education, protection,…",
+      "source": "UNEP",
+      "source_url": "https://www.unep.org/events",
+      "organization": "unep.org",
+      "id": "99df453ec401"
     },
     {
       "title": "Youth Forum",
