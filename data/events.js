@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-09T13:54:14+00:00",
-  "event_count": 6,
+  "generated_at": "2026-11-10T13:27:51+00:00",
+  "event_count": 8,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 1.6
+      "seconds": 2.0
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.5
+      "seconds": 13.9
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.6
+      "seconds": 14.6
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -44,7 +44,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.1
+      "seconds": 1.2
     },
     {
       "status": "ok",
@@ -58,7 +58,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.1
+      "seconds": 0.8
     },
     {
       "status": "ok",
-      "count": 1,
+      "count": 2,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 1.1
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -81,7 +81,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 0.4
+      "seconds": 1.7
     },
     {
       "status": "ok",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.0
+      "seconds": 0.2
     },
     {
       "status": "ok",
-      "count": 2,
+      "count": 3,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.8
+      "seconds": 1.4
     },
     {
       "status": "ok",
       "count": 1,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 2.8
+      "seconds": 3.2
     },
     {
       "status": "error",
@@ -134,7 +134,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 1.0
+      "seconds": 0.6
     },
     {
       "status": "ok",
@@ -148,21 +148,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.5
+      "seconds": 1.4
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.8
+      "seconds": 0.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.6
+      "seconds": 11.2
     }
   ],
   "events": [
@@ -203,6 +203,18 @@ window.UN_YOUTH_EVENTS = {
       "id": "f088a63a462b"
     },
     {
+      "title": "Cultural performance International Youth Festival “The Planet of ART 2026” - “Symphony of Unity” Gala Concert 10 November 2026",
+      "url": "https://www.unesco.org/en/event/international-youth-festival-planet-art-2026-symphony-unity-gala-concert",
+      "start": "2026-11-10",
+      "end": null,
+      "location": "",
+      "description": "",
+      "source": "UNESCO",
+      "source_url": "https://www.unesco.org/en/events",
+      "organization": "unesco.org",
+      "id": "ab76d46918e8"
+    },
+    {
       "title": "Integrated Responses to Loss and Damage: A Focus on Children and Young People",
       "url": "https://www.unep.org/en/events/unep-event/integrated-responses-loss-and-damage-focus-children-and-young-people",
       "start": "2026-11-10",
@@ -225,6 +237,18 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/events",
       "organization": "ecosoc.un.org",
       "id": "a9bd88f3e756"
+    },
+    {
+      "title": "ECOSOC Partnership Forum",
+      "url": "https://unhabitat.org/events/ecosoc-partnership-forum-3",
+      "start": "2027-07-02",
+      "end": null,
+      "location": "",
+      "description": "The annual ECOSOC Partnership Forum brings together Member States and a wide range of stakeholders, including non-governmental organizations, local governments, the private sector, civil society, the United Nations system, international financial institutions, academia, scientists, women and youth, among others.",
+      "source": "UN-Habitat",
+      "source_url": "https://unhabitat.org/events",
+      "organization": "unhabitat.org",
+      "id": "8d674b0f3053"
     },
     {
       "title": "International Youth Day 2027",
