@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-12T13:45:45+00:00",
-  "event_count": 7,
+  "generated_at": "2026-11-13T13:06:12+00:00",
+  "event_count": 6,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 1.6
+      "seconds": 5.2
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.2
+      "seconds": 14.6
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.0
+      "seconds": 16.9
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.3
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -37,7 +37,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
@@ -58,7 +58,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.9
+      "seconds": 1.1
     },
     {
       "status": "ok",
       "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.9
+      "seconds": 1.3
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.6
+      "seconds": 2.0
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.3
+      "seconds": 0.7
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 3,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 2.7
+      "seconds": 1.6
     },
     {
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.2
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -134,14 +134,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.9
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.6
+      "seconds": 0.2
     },
     {
       "status": "ok",
@@ -162,7 +162,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 0.9
+      "seconds": 1.0
     }
   ],
   "events": [
@@ -201,18 +201,6 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
       "id": "f088a63a462b"
-    },
-    {
-      "title": "From lab to action: Young people tackling AMR",
-      "url": "https://www.unep.org/en/events/unep-event/lab-action-young-people-tackling-amr",
-      "start": "2026-11-12",
-      "end": null,
-      "location": "",
-      "description": "UNEP Event Image Image credit Beverly McDonald/UNEP Kenya 12 Nov 2026 12 Nov 2026",
-      "source": "UNEP",
-      "source_url": "https://www.unep.org/events",
-      "organization": "unep.org",
-      "id": "accd9242c6b9"
     },
     {
       "title": "Youth Forum",
