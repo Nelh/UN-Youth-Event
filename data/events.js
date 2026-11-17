@@ -1,5 +1,5 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-16T13:38:13+00:00",
+  "generated_at": "2026-11-17T14:24:26+00:00",
   "event_count": 6,
   "sources": [
     {
@@ -7,21 +7,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 6.8
+      "seconds": 1.8
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.2
+      "seconds": 14.6
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.3
+      "seconds": 15.2
     },
     {
       "status": "error",
@@ -44,7 +44,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.0
+      "seconds": 1.1
     },
     {
       "status": "ok",
@@ -55,7 +55,7 @@ window.UN_YOUTH_EVENTS = {
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 2,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
       "seconds": 0.2
@@ -69,11 +69,12 @@ window.UN_YOUTH_EVENTS = {
       "seconds": 1.0
     },
     {
-      "status": "ok",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.unesco.org', port=443): Max retries exceeded with url: /en/events (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.unesco.org', port=443): Read timed out. (read",
       "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.8
+      "seconds": 95.1
     },
     {
       "status": "error",
@@ -81,7 +82,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.7
+      "seconds": 0.8
     },
     {
       "status": "ok",
@@ -108,17 +109,17 @@ window.UN_YOUTH_EVENTS = {
     },
     {
       "status": "ok",
-      "count": 3,
+      "count": 0,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 1.3
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.7
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -126,7 +127,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -141,43 +142,31 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 3.3
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.0
+      "seconds": 0.9
     }
   ],
   "events": [
-    {
-      "title": "International Youth Day",
-      "url": "https://unhabitat.org/events/international-youth-day-2",
-      "start": "2026-08-12",
-      "end": null,
-      "location": "",
-      "description": "12 August 2026 UN Day Global Event Youth International Youth Day is commemorated every year on 12 August, bringing youth issues to the attention of the international community and celebrating the potential of youth as partners in today’s global society. The idea for International Youth Day was proposed in 1991 by the young people who were gathered in Vienna, Austria, for the first session of the…",
-      "source": "UN-Habitat",
-      "source_url": "https://unhabitat.org/events",
-      "organization": "unhabitat.org",
-      "id": "531b36a5ee78"
-    },
     {
       "title": "2026 Award Ceremony of the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences and Fellowship Programme for Young Women Scientists in Africa",
       "url": "https://www.unesco.org/en/articles/2026-award-ceremony-unesco-equatorial-guinea-international-prize-research-life-sciences",
@@ -203,6 +192,30 @@ window.UN_YOUTH_EVENTS = {
       "id": "f088a63a462b"
     },
     {
+      "title": "3rd Meeting, 6th Session Forum on Human Rights, Democracy and the Rule of Law",
+      "url": "https://webtv.un.org/en/asset/k1x/k1xai96y5i",
+      "start": "2026-11-17",
+      "end": null,
+      "location": "",
+      "description": "2026-11-17T09:00:00-05:00 04 00 am Meetings & Events The sixth session of the Forum on Human Rights, Democracy and the Rule of Law will be held on 16 and 17 November 2026. In accordance with Human Rights Council resolution 58/8 adopted on 2 April 2025 the theme of this session is \"Education for civic participation: empowering future generations, fostering knowledge and critical thinking\".",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "85c319381d68"
+    },
+    {
+      "title": "4th Meeting, 6th Session Forum on Human Rights, Democracy and the Rule of Law",
+      "url": "https://webtv.un.org/en/asset/k1b/k1bmbl34gu",
+      "start": "2026-11-17",
+      "end": null,
+      "location": "",
+      "description": "2026-11-17T14:00:00-05:00 09 00 am Meetings & Events The sixth session of the Forum on Human Rights, Democracy and the Rule of Law will be held on 16 and 17 November 2026. In accordance with Human Rights Council resolution 58/8 adopted on 2 April 2025 the theme of this session is \"Education for civic participation: empowering future generations, fostering knowledge and critical thinking\".",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "ef5f1c7fde5b"
+    },
+    {
       "title": "Youth Forum",
       "url": "https://ecosoc.un.org/en/events/2027/youth-forum",
       "start": "2027-04-13",
@@ -213,18 +226,6 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/events",
       "organization": "ecosoc.un.org",
       "id": "a9bd88f3e756"
-    },
-    {
-      "title": "ECOSOC Partnership Forum",
-      "url": "https://unhabitat.org/events/ecosoc-partnership-forum-3",
-      "start": "2027-07-02",
-      "end": null,
-      "location": "",
-      "description": "The annual ECOSOC Partnership Forum brings together Member States and a wide range of stakeholders, including non-governmental organizations, local governments, the private sector, civil society, the United Nations system, international financial institutions, academia, scientists, women and youth, among others.",
-      "source": "UN-Habitat",
-      "source_url": "https://unhabitat.org/events",
-      "organization": "unhabitat.org",
-      "id": "8d674b0f3053"
     },
     {
       "title": "International Youth Day 2027",
