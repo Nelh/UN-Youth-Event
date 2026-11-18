@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-17T14:24:26+00:00",
-  "event_count": 6,
+  "generated_at": "2026-11-18T13:57:14+00:00",
+  "event_count": 4,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 1.8
+      "seconds": 3.6
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.6
+      "seconds": 14.7
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 15.2
+      "seconds": 15.5
     },
     {
       "status": "error",
@@ -37,25 +37,25 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.1
+      "seconds": 1.6
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.2
+      "seconds": 1.1
     },
     {
       "status": "ok",
-      "count": 2,
+      "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
       "seconds": 0.2
@@ -66,15 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.0
+      "seconds": 1.3
     },
     {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.unesco.org', port=443): Max retries exceeded with url: /en/events (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.unesco.org', port=443): Read timed out. (read",
+      "status": "ok",
       "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 95.1
+      "seconds": 0.8
     },
     {
       "status": "error",
@@ -82,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 0.8
+      "seconds": 2.1
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -112,14 +111,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.8
+      "seconds": 3.0
     },
     {
       "status": "error",
@@ -135,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.8
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.6
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.5
+      "seconds": 1.8
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.7
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 0.9
+      "seconds": 0.5
     }
   ],
   "events": [
@@ -190,30 +189,6 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
       "id": "f088a63a462b"
-    },
-    {
-      "title": "3rd Meeting, 6th Session Forum on Human Rights, Democracy and the Rule of Law",
-      "url": "https://webtv.un.org/en/asset/k1x/k1xai96y5i",
-      "start": "2026-11-17",
-      "end": null,
-      "location": "",
-      "description": "2026-11-17T09:00:00-05:00 04 00 am Meetings & Events The sixth session of the Forum on Human Rights, Democracy and the Rule of Law will be held on 16 and 17 November 2026. In accordance with Human Rights Council resolution 58/8 adopted on 2 April 2025 the theme of this session is \"Education for civic participation: empowering future generations, fostering knowledge and critical thinking\".",
-      "source": "UN Web TV",
-      "source_url": "https://webtv.un.org/en/schedule",
-      "organization": "webtv.un.org",
-      "id": "85c319381d68"
-    },
-    {
-      "title": "4th Meeting, 6th Session Forum on Human Rights, Democracy and the Rule of Law",
-      "url": "https://webtv.un.org/en/asset/k1b/k1bmbl34gu",
-      "start": "2026-11-17",
-      "end": null,
-      "location": "",
-      "description": "2026-11-17T14:00:00-05:00 09 00 am Meetings & Events The sixth session of the Forum on Human Rights, Democracy and the Rule of Law will be held on 16 and 17 November 2026. In accordance with Human Rights Council resolution 58/8 adopted on 2 April 2025 the theme of this session is \"Education for civic participation: empowering future generations, fostering knowledge and critical thinking\".",
-      "source": "UN Web TV",
-      "source_url": "https://webtv.un.org/en/schedule",
-      "organization": "webtv.un.org",
-      "id": "ef5f1c7fde5b"
     },
     {
       "title": "Youth Forum",
