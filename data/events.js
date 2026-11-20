@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-19T14:25:35+00:00",
-  "event_count": 4,
+  "generated_at": "2026-11-20T14:00:26+00:00",
+  "event_count": 5,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 2.0
+      "seconds": 4.7
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.0
+      "seconds": 16.0
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 14.1
+      "seconds": 16.9
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.4
+      "seconds": 1.1
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.2
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 1.0
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.8
+      "seconds": 1.7
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.1
+      "seconds": 2.3
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.1
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 1.2
+      "seconds": 1.6
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.2
+      "seconds": 0.6
     },
     {
       "status": "error",
@@ -134,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.5
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.3
+      "seconds": 1.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.7
+      "seconds": 1.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.5
+      "seconds": 1.3
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 1.0
+      "seconds": 1.8
     }
   ],
   "events": [
@@ -189,6 +189,18 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
       "id": "f088a63a462b"
+    },
+    {
+      "title": "World Fisheries Day: Empowering women and youth in fisheries",
+      "url": "https://webtv.un.org/en/asset/k1g/k1gorvuv78",
+      "start": "2026-11-20",
+      "end": null,
+      "location": "",
+      "description": "2026-11-20T13:30:00-05:00 08 30 am Live Agencies, Funds & Programmes On the occasion of World Fisheries Day 2026, Food and Agriculture Organization of the United Nations (FAO) and International Labour Organization (ILO) will jointly host an event on \"Empowering people for change: advancing decent work in fisheries and aquaculture, particularly for youth and women.\"",
+      "source": "UN Web TV",
+      "source_url": "https://webtv.un.org/en/schedule",
+      "organization": "webtv.un.org",
+      "id": "69d6ef9e4de8"
     },
     {
       "title": "Youth Forum",
