@@ -1,5 +1,5 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-21T13:27:56+00:00",
+  "generated_at": "2026-11-22T13:20:31+00:00",
   "event_count": 5,
   "sources": [
     {
@@ -7,21 +7,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 3.2
+      "seconds": 2.1
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 14.1
+      "seconds": 14.8
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 14.1
+      "seconds": 15.7
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.0
+      "seconds": 1.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.7
+      "seconds": 1.2
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "status": "error",
@@ -81,7 +81,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 0.7
+      "seconds": 0.9
     },
     {
       "status": "ok",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.2
+      "seconds": 0.6
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "status": "error",
@@ -148,21 +148,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.4
+      "seconds": 1.5
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.5
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 0.7
+      "seconds": 0.8
     }
   ],
   "events": [
