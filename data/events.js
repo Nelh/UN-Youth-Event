@@ -1,27 +1,27 @@
 window.UN_YOUTH_EVENTS = {
-  "generated_at": "2026-11-25T15:35:40+00:00",
-  "event_count": 5,
+  "generated_at": "2026-11-26T15:13:49+00:00",
+  "event_count": 4,
   "sources": [
     {
       "status": "ok",
       "count": 0,
       "name": "UN Youth Office",
       "url": "https://www.un.org/youthaffairs/en/events",
-      "seconds": 4.3
+      "seconds": 3.6
     },
     {
       "status": "ok",
       "count": 2,
       "name": "UN DESA – Youth",
       "url": "https://social.desa.un.org/issues/youth/events",
-      "seconds": 13.6
+      "seconds": 14.6
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC Youth Forum",
       "url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
-      "seconds": 14.0
+      "seconds": 14.7
     },
     {
       "status": "error",
@@ -29,7 +29,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Major Group for Children & Youth",
       "url": "https://www.unmgcy.org/events",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "status": "error",
@@ -37,28 +37,28 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN DESA",
       "url": "https://social.desa.un.org/events",
-      "seconds": 0.0
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 1,
       "name": "ECOSOC",
       "url": "https://ecosoc.un.org/en/events",
-      "seconds": 1.1
+      "seconds": 1.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN SDGs",
       "url": "https://sdgs.un.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN Web TV",
       "url": "https://webtv.un.org/en/schedule",
-      "seconds": 0.9
+      "seconds": 0.1
     },
     {
       "status": "error",
@@ -66,14 +66,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Indico",
       "url": "https://indico.un.org/export/categ/0.ics?from=-30d&to=%2B365d&limit=1000",
-      "seconds": 0.6
+      "seconds": 0.9
     },
     {
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "name": "UNESCO",
       "url": "https://www.unesco.org/en/events",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "status": "error",
@@ -81,14 +81,14 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNICEF",
       "url": "https://www.unicef.org/events",
-      "seconds": 1.5
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFPA",
       "url": "https://www.unfpa.org/events",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "status": "error",
@@ -96,7 +96,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UNDP",
       "url": "https://www.undp.org/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -104,21 +104,21 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Volunteers",
       "url": "https://www.unv.org/events",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UN-Habitat",
       "url": "https://unhabitat.org/events",
-      "seconds": 1.1
+      "seconds": 0.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNEP",
       "url": "https://www.unep.org/events",
-      "seconds": 1.0
+      "seconds": 1.2
     },
     {
       "status": "error",
@@ -126,7 +126,7 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "UN Women",
       "url": "https://www.unwomen.org/en/news-stories/events",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "status": "error",
@@ -134,35 +134,35 @@ window.UN_YOUTH_EVENTS = {
       "count": 0,
       "name": "ILO",
       "url": "https://www.ilo.org/events-and-meetings",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "WHO",
       "url": "https://www.who.int/news-room/events",
-      "seconds": 0.2
+      "seconds": 0.9
     },
     {
       "status": "ok",
       "count": 0,
       "name": "ITU",
       "url": "https://www.itu.int/en/events/Pages/default.aspx",
-      "seconds": 1.8
+      "seconds": 1.2
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNCCD",
       "url": "https://www.unccd.int/events/other-meetings-events",
-      "seconds": 0.5
+      "seconds": 0.7
     },
     {
       "status": "ok",
       "count": 0,
       "name": "UNFCCC",
       "url": "https://unfccc.int/calendar",
-      "seconds": 0.8
+      "seconds": 0.9
     }
   ],
   "events": [
@@ -189,18 +189,6 @@ window.UN_YOUTH_EVENTS = {
       "source_url": "https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum",
       "organization": "un.org",
       "id": "f088a63a462b"
-    },
-    {
-      "title": "Film screening Culture, Youth and Transmission: The Impact and Influence of Congolese Rumba on Contemporary Music and Its Role in Promoting Peace Around the World 25 November 2026",
-      "url": "https://www.unesco.org/en/event/culture-youth-and-transmission-impact-and-influence-congolese-rumba-contemporary-music-and-its-role-1",
-      "start": "2026-11-25",
-      "end": null,
-      "location": "",
-      "description": "",
-      "source": "UNESCO",
-      "source_url": "https://www.unesco.org/en/events",
-      "organization": "unesco.org",
-      "id": "ec73d494e368"
     },
     {
       "title": "Youth Forum",
